@@ -1,3 +1,6 @@
+# Course Details Management
+
+Add, view/search, update and delete courses.
 # Course Feedback / Reviews
 
 The existing project stores feedback/support in Tickets (subject, message, status, reply). Map feedback comments and review handling here; do not rename endpoints without coordinating the team.
@@ -8,6 +11,11 @@ The existing project models lessons/assignment instructions with the Lesson modu
 ## Files in this member folder
 These are reference copies of the corresponding files from the complete working IntelliJ project. Keep Java package names (`com.learnhub...`) unchanged when merging changes.
 
+- `entity/Course.java`
+- `controller/CourseController.java`
+- `repository/CourseRepository.java`
+- `service/CourseService.java`
+- `dto/CourseDto.java`
 - `entity/Ticket.java`
 - `controller/TicketController.java`
 - `repository/TicketRepository.java`
