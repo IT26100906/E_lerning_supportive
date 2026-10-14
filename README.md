@@ -1,3 +1,6 @@
+# Course Enrollment
+
+Create/view/search/update/drop course enrollments.
 # Student Account Management + Home/Landing Page
 
 Student registration, list/search, edit and delete. Home page/landing page ownership is also assigned to Member 1. The original UI files are copied unchanged for reference.
@@ -14,6 +17,11 @@ The existing project models lessons/assignment instructions with the Lesson modu
 ## Files in this member folder
 These are reference copies of the corresponding files from the complete working IntelliJ project. Keep Java package names (`com.learnhub...`) unchanged when merging changes.
 
+- `entity/Enrollment.java`
+- `controller/EnrollmentController.java`
+- `repository/EnrollmentRepository.java`
+- `service/EnrollmentService.java`
+- `dto/EnrollmentDto.java`
 - `entity/Customer.java`
 - `controller/CustomerController.java`
 - `repository/CustomerRepository.java`
