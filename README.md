@@ -1,3 +1,6 @@
+# Student Account Management + Home/Landing Page
+
+Student registration, list/search, edit and delete. Home page/landing page ownership is also assigned to Member 1. The original UI files are copied unchanged for reference.
 # Course Details Management
 
 Add, view/search, update and delete courses.
@@ -11,6 +14,16 @@ The existing project models lessons/assignment instructions with the Lesson modu
 ## Files in this member folder
 These are reference copies of the corresponding files from the complete working IntelliJ project. Keep Java package names (`com.learnhub...`) unchanged when merging changes.
 
+- `entity/Customer.java`
+- `controller/CustomerController.java`
+- `repository/CustomerRepository.java`
+- `service/CustomerService.java`
+- `dto/CustomerDto.java`
+
+## Home page UI files (original copies; unchanged)
+- `home-page-ui/index.html`
+- `home-page-ui/app.js`
+- `home-page-ui/main.css`
 - `entity/Course.java`
 - `controller/CourseController.java`
 - `repository/CourseRepository.java`
