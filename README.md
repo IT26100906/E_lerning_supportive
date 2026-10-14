@@ -1,3 +1,6 @@
+# Course Notes / Study Materials
+
+Add, view/search, edit and delete course study materials/notes.
 # Course Enrollment
 
 Create/view/search/update/drop course enrollments.
@@ -17,6 +20,11 @@ The existing project models lessons/assignment instructions with the Lesson modu
 ## Files in this member folder
 These are reference copies of the corresponding files from the complete working IntelliJ project. Keep Java package names (`com.learnhub...`) unchanged when merging changes.
 
+- `entity/Note.java`
+- `controller/NoteController.java`
+- `repository/NoteRepository.java`
+- `service/NoteService.java`
+- `dto/NoteDto.java`
 - `entity/Enrollment.java`
 - `controller/EnrollmentController.java`
 - `repository/EnrollmentRepository.java`
